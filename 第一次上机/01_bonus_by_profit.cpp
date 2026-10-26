@@ -19,6 +19,8 @@ int main()
     float bonus;
     cin >> profit;
 
+    // [AI 辅助修改] 原写法 0 < profit <= 100000 恒为真，已改为下方条件。
+    // 详见 PROMPT_LOG.md 记录 3
     if (profit > 0 && profit <= 100000) {
         cout << "The bonus is" << profit * 0.1 << endl;
     } else if (profit > 100000 && profit <= 200000) {

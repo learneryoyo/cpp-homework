@@ -2,6 +2,8 @@
 
 8 道题，一题一个文件，全部可独立编译运行。
 
+> 📄 **AI 使用记录**：本次作业使用 AI 的完整过程见 **[PROMPT_LOG.md](./PROMPT_LOG.md)**（课程「边界守则」要求提交）。
+
 | 序号 | 文件 | 题目 |
 | :--: | :-- | :-- |
 | 01 | [01_bonus_by_profit.cpp](./01_bonus_by_profit.cpp) | 利润提成算奖金（多段 if-else） |

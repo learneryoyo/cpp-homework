@@ -28,6 +28,7 @@ C/C++ 程序设计课程的上机作业提交仓库。
 作业/
 ├─ 第一次上机/
 │  ├─ README.md                    ← 本次作业的题目索引
+│  ├─ PROMPT_LOG.md                ← AI 使用记录（课程要求）
 │  ├─ 01_bonus_by_profit.cpp
 │  ├─ 02_grade_by_score.cpp
 │  ├─ 03_palindrome_number.cpp
