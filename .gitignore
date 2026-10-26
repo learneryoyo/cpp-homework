@@ -1,0 +1,29 @@
+# ---- 编译产物（不需要提交）----
+*.exe
+*.o
+*.obj
+*.out
+*.a
+*.lib
+*.dll
+*.ilk
+*.pdb
+*.gch
+a.out
+
+# ---- IDE / 编辑器配置 ----
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*~
+
+# ---- 系统垃圾文件 ----
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- 临时文件 ----
+*.tmp
+*.log
+~$*

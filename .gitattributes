@@ -1,0 +1,13 @@
+# 统一换行符处理，避免 Windows / GitHub 之间来回改文件
+* text=auto
+
+# 批处理脚本必须用 CRLF，否则 cmd 可能解析出错
+*.bat text eol=crlf
+
+# 二进制文档不做换行转换（否则文件会损坏）
+*.docx binary
+*.doc binary
+*.pdf  binary
+*.xlsx binary
+*.pptx binary
+*.zip  binary
