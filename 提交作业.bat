@@ -5,7 +5,7 @@ cd /d "%~dp0"
 rem Optional first argument = commit message.
 rem Usage: submit.bat "first lab 8 problems"
 set "MSG=%~1"
-if "%MSG%"=="" set "MSG=homework: %date% %time%"
+if not defined MSG set "MSG=homework: %date% %time%"
 
 echo ==========================================
 echo   C++ Homework - One Click Submit
