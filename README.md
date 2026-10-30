@@ -49,7 +49,8 @@ C/C++ 程序设计课程的上机作业提交仓库。
    ├─ 05_prime_check.cpp
    ├─ 06_gcd_lcm.cpp
    ├─ 07_fibonacci_recursive.cpp
-   └─ 08_power_overload.cpp
+   ├─ 08_power_overload.cpp
+   └─ 第二次上机实验报告.docx
 ```
 
 **为什么一题一个文件？**
